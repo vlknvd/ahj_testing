@@ -1,7 +1,7 @@
 # Домашнее задание к занятию "4.Организация тестирования"
 
 [![Build status](https://ci.appveyor.com/api/projects/status/pnuofkgpm5l53wp8?svg=true)](https://ci.appveyor.com/project/vlknvd/ahj-testing)
-
+[GitHub Pages](https://vlknvd.github.io/ahj_testing/)
 
 Правила сдачи задания:
 
