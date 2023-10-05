@@ -1,8 +1,8 @@
 export default class ValidateCardNumber {
   constructor(systemPayCard) {
-    this.regex1 = new RegExp('^[0-9]{14}$');
-    this.regex2 = new RegExp('^[0-9]{15}$');
-    this.regex3 = new RegExp('^[0-9]{16}$');
+    this.regex1 = /[0-9]{14}$/;
+    this.regex2 = /^[0-9]{15}$/;
+    this.regex3 = /^[0-9]{16}$/;
     this.systemPayCard = systemPayCard;
   }
 
@@ -10,7 +10,7 @@ export default class ValidateCardNumber {
     return this.regex1.test(value) || this.regex2.test(value) || this.regex3.test(value);
   }
 
-  checkNumber(value) {
+  static checkNumber(value) {
     let sum = 0;
     let even = false;
     if (value) {

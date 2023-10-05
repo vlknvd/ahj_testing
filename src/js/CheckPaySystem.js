@@ -11,7 +11,6 @@ export default class CheckPaySystem {
     const firstNum = num[0] + num[1];
     if (this.systemPayCard[firstNum]) {
       const { name } = this.systemPayCard[firstNum];
-      console.log(name)
       return name;
     }
     if (this.systemPayCard[num[0]]) {
