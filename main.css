@@ -1,0 +1,107 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.widget-title {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.visually_hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.cards {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+}
+
+.card {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.card:nth-child(n + 2) {
+    margin-left: 10px;
+}
+
+.mir{
+    background-image: url(4cec1d729065a16f681e.svg);
+}
+
+.diners_club {
+    background-image: url(8f7100a1473e927b8ee3.svg);
+}
+
+.jcb {
+    background-image: url(f6e2e575875d1d6e3b10.svg);
+}
+
+.amex {
+    background-image: url(a61b5d4502e3e0b01ae6.svg);
+}
+
+.visa {
+    background-image: url(19fa4b8aaac9cdca54c5.svg);
+}
+
+.master {
+    background-image: url(dc962980a6e40559381c.svg);
+}
+
+.discover {
+    background-image: url(a221be4fc856369be45e.svg);
+}
+
+.transparent {
+    opacity: 0.2;
+}
+
+.checked {
+    opacity: 1;
+}
+
+.widget-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.input {
+    padding: 15px 30px;
+}
+
+.button {
+    border: 1px solid #000;
+    padding: 15px 30px;
+    background-color: rgb(41, 149, 59);
+    color: #fff;
+    margin-left: 10px;
+}
+
+.button:hover {
+    background-color: #000;
+}
+
+
